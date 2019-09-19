@@ -39,6 +39,8 @@ class KotlinActivity : AppCompatActivity() {
         
         // Show APK signature
         Log.e("Signature", apkSignature)
+
+        Log.e("Signature", "test")
     }
     
     fun toGithub() {
